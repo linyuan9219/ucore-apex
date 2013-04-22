@@ -8,6 +8,7 @@
 #include <clock.h>
 #include <intr.h>
 #include <pmm.h>
+#include <partition.h>
 #include <kmonitor.h>
 
 int kern_init(void) __attribute__((noreturn));
